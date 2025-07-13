@@ -1,0 +1,56 @@
+body {
+  background-color: #0d0d0d;
+  color: #00ff99;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+header {
+  padding: 30px 10px;
+  background-color: #000000;
+  border-bottom: 2px solid #00ff99;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.slogan {
+  font-size: 1.2em;
+  color: #cccccc;
+}
+.register-bonus {
+  margin-top: 30px;
+  font-size: 1.1em;
+  background-color: #001f1f;
+  border: 1px solid #00ff99;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.cta-buttons {
+  margin-top: 40px;
+}
+.cta-buttons a {
+  text-decoration: none;
+  color: #0d0d0d;
+  background-color: #00ff99;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+.cta-buttons a:hover {
+  background-color: #00cc77;
+}
+form input, form button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+form button {
+  background-color: #00ff99;
+  color: #000;
+  font-weight: bold;
+}
